@@ -79,3 +79,7 @@ class SinglePostView(View):
 #         'post': identified_post,
 #         'post_tags': identified_post.tags.all()
 #     })
+
+class ReadLaterView(View):
+    def post(self, request):
+        pass
