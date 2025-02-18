@@ -108,4 +108,4 @@ class ReadLaterView(View):
             stored_posts.append(post_id)
             request.session['stored_posts'] = stored_posts
 
-        return HttpResponseRedirect("/")
+        return HttpResponseRedirect("/blog")
